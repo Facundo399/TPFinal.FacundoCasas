@@ -1,0 +1,162 @@
+*{margin:0;
+padding: 0;
+box-sizing: border-box;}
+
+
+
+/*HEADER*/
+body{
+    background-color: rgb(25, 180, 25);
+}
+#contenedor1{
+    display: flex;
+}
+#contenedor1 .navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 40px;    
+    width: 100%;
+    height: 150px;
+}
+#contenedor1 .navegacion ,ul{
+    list-style: none;
+    display: flex;
+    color: rgb(15, 122, 15);
+}
+#contenedor1 .navegacion ,ul ,li{
+    margin: 0 15px 0 100px;
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    background-image: url(img/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*MAIN*/
+#contenedor2 {
+    display: flex;
+    flex-direction:column;
+    height: 3100px;
+
+}
+#contenedor2 .seccion1 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 850px;
+}
+
+.cajas {
+    width: 550px;
+    height: 800px;
+    margin: 15px 150px 0 150px;
+    font-size: 28px;   
+}
+#contenedor2 .seccion2{
+    height: 570px;
+    background-color: rgb(37, 82, 17);
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+}
+#contenedor2 .seccion2 .staff{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(35, 153, 94);
+    margin: 0 200px 0 200px;
+    margin-top: 20px;
+}
+#contenedor2 .seccion2 .staff .t1{
+    font-size: 50px;
+}
+#contenedor2 .seccion2 .staff .t2{
+    font-size: 40px;
+    margin: 50px 0;
+}
+#contenedor2 .seccion3 {
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+#contenedor2 .seccion4 {
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+
+}
+#contenedor2 .seccion4 .noti {
+    height: 550px;
+    width: 550px;
+    background-color: aqua;
+    margin: 0 100px 0 100px;
+}
+#contenedor2 .seccion5 {
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+}
+#contenedor2 .seccion5 .publicidad{
+    height: 600px;
+    width: 600px;
+    margin: 0 100px 0 100px;
+}
+#contenedor3 {
+    height: 900px;
+    background-color: green;
+
+}
+#contenedor3 .pie{
+    height: 200px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+#contenedor3 .pie .sub1{
+    margin: 0 auto;
+}
+#contenedor3 .banner2{
+    height: 710px;
+    background-color: green;
+}
+#contenedor3 ,a{
+    text-decoration: none;
+    color: white;
+}
+
+/*segunda pagina "login"*/
+
+#login1{
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#login1 .inicio{
+    background-color: #23750c;
+    display: flex;
+    height: 800px;
+}
+#login1 .inicio .formulario{
+    display: flex;
+    flex-direction: column;
+    width: 1700px
+}
+#login1 .inicio .formulario ,input{
+    height: 700px;
+    margin: 7px;
+    font-size: 40px;
+}
+
